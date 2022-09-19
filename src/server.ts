@@ -97,4 +97,4 @@ app.get("/ads/:id/discord", async (req, res) => {
   });
 });
 
-app.listen(process.env.APP_URL || 3333);
+app.listen(process.env.PORT || 3333);
